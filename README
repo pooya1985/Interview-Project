@@ -1,0 +1,5 @@
+Interview Project was created as part of the Fizz Buzz test. The project allows for an end-user to use the NumberReplacementPrinter to write any variation of number replacement with text.
+
+The NumberReplacementPrinter accepts an ILineWriter and any number of NumberReplacement objects. The NumberReplacement object accepts a number and replacement text and returns the replacement text based on whatever rule is needed. The only implementation of the NumberReplacement object in this project is the MultipleOfNumberReplacement because it is the only one required to achieve the Fizz Buzz requirement.
+
+If you wanted to replace Prime numbers with "Prime", you would just implement the NumberReplacement object with the required rule and pass it into the NumberReplacementPrinter.
